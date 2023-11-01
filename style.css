@@ -1,7 +1,21 @@
 div {
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    margin: 50px 400px 200px 400px;
+    background-color: rgb(230, 94, 15);
+    width: 480px;
+    border-left:dashed blue 5px;
+    border-right: dashed red 5px;
+    border-bottom: dashed black 5px;
+    border-top: dashed purple 5px;
+    padding: 0px;
+    
+  }
+  h1{
+    background-color: aqua;
+    margin: 0;
+  }
+  h1:hover{
+    background-color: brown;
+  }
+  p{
+    background-color: rgb(230, 94, 15);
   }
