@@ -4,7 +4,7 @@ div{
   background-color: yellow;
   margin: 10px;
   border:black solid;
-  width: 100px;
+  width: 200px;
   height: 300px;
   float: left;
 }
@@ -12,7 +12,5 @@ div{
     background-color: blue;
     border: red solid;
     margin: 0;
-    
     height: 150px;
-    
 }
