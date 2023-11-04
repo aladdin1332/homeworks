@@ -1,0 +1,18 @@
+div{
+    
+    
+  background-color: yellow;
+  margin: 10px;
+  border:black solid;
+  width: 100px;
+  height: 300px;
+  float: left;
+}
+.list{
+    background-color: blue;
+    border: red solid;
+    margin: 0;
+    
+    height: 150px;
+    
+}
