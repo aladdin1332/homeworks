@@ -1,0 +1,25 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: section; }
+.item3 { grid-area: contact; }
+.item4 { grid-area: h1; }
+.item5 { grid-area: h2; }
+.item6 {grid-area: h3}
+.item7{grid-area: footer;}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'section section section section contact contact'
+    'h1 h1 h2 h2 h3 h3'
+    'footer footer footer footer footer footer';  
+   
+}
+.grid-container > div{
+    text-align: center;
+    border: solid black 2px;
+    
+}
+div{
+    margin: 10px;
+    border: solid black 2px;
+}
